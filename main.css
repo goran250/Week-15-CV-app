@@ -46,7 +46,7 @@ header {
    padding: 0 0 30px 30px;
    float: left;
    display: inline;  
-   width: 615px;
+   width: 61%;
 }
 
 .utbildning div, .anstallningar div {
@@ -55,6 +55,10 @@ header {
 
 .utbildning h4, .anstallningar h4 {
    font-size: 18px;
+   display: inline;
+}
+
+.anstallningar h3 {
    display: inline;
 }
 
@@ -132,15 +136,17 @@ p {
 
 @media screen and (max-width: 1010px) { 
    .right-column {
-      width: 490px;
+      width: 56%;
    }
+}
 
+@media screen and (max-width: 1010px) { 
    .anstallningar span {
       float: left;
       margin-bottom: 6px;                                   
    }
 
-   .anstallningar h4 {
+   .anstallningar h3, .anstallningar h4 {
       display: block;   
       margin-bottom: 8px;                                   
    }
@@ -149,7 +155,7 @@ p {
 @media screen and (max-width: 900px) { 
 
    .right-column {
-      width: 390px;
+      width: 51%;
    }
    .desktop {
       display: none;
@@ -188,6 +194,7 @@ p {
    .left-column {
       width: 100%;
       margin-left: 0px;
+      margin-bottom: 20px;
    }
 
    .right-column {
@@ -218,6 +225,10 @@ p {
       max-width: 160px;
       height: auto;
       float: right;
+   }
+
+   .goals {
+      padding-right: 10px;
    }
 } 
 
