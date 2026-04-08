@@ -229,6 +229,7 @@ p {
    .cv-image {
       width: 150px;  
    }
+
    .person-image-mobile {
       width: 110px;
    }
@@ -245,4 +246,5 @@ p {
 
    .right-column {
       width: 111%;
+   }
 }
