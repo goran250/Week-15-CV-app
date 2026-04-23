@@ -37,9 +37,8 @@ header {
 }
 
 .left-column hr {
-     margin-top: 22px;
+   margin-top: 22px;
    margin-bottom: 22px;
-
 }
 
 .right-column {
@@ -138,9 +137,7 @@ p {
    .right-column {
       width: 56%;
    }
-}
 
-@media screen and (max-width: 1010px) { 
    .anstallningar span {
       float: left;
       margin-bottom: 6px;                                   
